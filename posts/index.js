@@ -40,5 +40,6 @@ app.post("/events", (req, res) => {
 const port = 4000;
 
 app.listen(port, () => {
+  console.log("This is the posts service!");
   console.log("Listening on port " + port);
 });
